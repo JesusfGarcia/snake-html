@@ -40,11 +40,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    bottom: 100px;
-    left: 100px;
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    left: 50px;
   }
 
   .controls div[class] {
