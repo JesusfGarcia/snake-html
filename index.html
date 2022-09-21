@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap"
+      rel="stylesheet"
+    />
+    <link type="text/css" href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body onkeydown="controls(event)">
+    <div class="console">
+      <canvas id="snake" width="600" height="600"></canvas>
+      <span id="score">score: 0 </span>
+      <div class="controls">
+        <div></div>
+        <div class="up" onclick="touchableControls(38)"></div>
+        <div></div>
+        <div class="left" onclick="touchableControls(37)"></div>
+        <div></div>
+        <div class="right" onclick="touchableControls(39)"></div>
+        <div></div>
+        <div class="down" onclick="touchableControls(40)"></div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+  <script src="snake.js"></script>
+</html>

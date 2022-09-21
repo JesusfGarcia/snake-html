@@ -1,0 +1,53 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0;
+
+  margin: 0;
+}
+
+#snake {
+  border: 1px solid rgb(49, 104, 80);
+  width: 600;
+  height: 600;
+  background-color: #e1f8d1;
+}
+
+.console {
+  background-color: #d6d5cf;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+#score {
+  align-self: center;
+}
+
+.controls {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  #snake {
+    width: 95%;
+  }
+
+  .controls {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    bottom: 100px;
+    left: 100px;
+  }
+
+  .controls div[class] {
+    background-color: black;
+  }
+}
